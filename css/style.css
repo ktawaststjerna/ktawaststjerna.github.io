@@ -1,0 +1,238 @@
+body
+{
+	font-family: 'Oswald', sans-serif;
+	line-height: 1.4;
+}
+
+footer
+{
+	background-color:grey;
+	height: 3em;
+	padding-top: 12px;
+}
+
+a:link 
+{
+    color: #ff4d4d;
+}
+
+a:visited 
+{
+    color: #ff4d4d;
+}
+
+a:hover 
+{
+    color: red;
+}
+
+a:active 
+{
+    color: hotpink;
+}
+
+.navbar
+{
+	background-color: #ff4d4d;
+}
+
+.navbar-static-top
+{
+	margin: 0px;
+}
+
+.navbar-collapse.collapse
+{
+    display: block !important;
+    width: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+
+.dropdown-menu
+{
+	background-color: #ff4d4d;
+}
+
+.navbar-nav,
+.navbar-nav > li,
+.navbar-left,
+.navbar-right,
+.navbar-header
+{float:none !important;}
+
+.nav.navbar-nav li a 
+{
+    color: white;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav.navbar-nav li a:hover
+{
+   	color: #ff4d4d;
+    background-color: white;
+}
+
+.nav.navbar-nav li a:focus
+{
+    color: #ff4d4d;
+    background-color: white;
+}
+
+.navbar-toggle
+{
+	background-color: white;
+}
+
+.navbar-header > h3
+{
+	font-family: sans-serif;
+	color: white;
+	margin: 12px;
+}
+
+.who-i-am > p
+{
+	color: #ff4d4d;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 4px;
+	margin: 15px;
+    text-transform: uppercase;
+}
+
+/* TEXT STUFF */
+.header
+{
+	color: #ff4d4d;
+	font-size: 3em;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 4px;
+	margin: 15px;
+    text-transform: uppercase;
+}
+
+.header-desc
+{
+	color: #ff4d4d;
+	font-size: 2em;
+	letter-spacing: 4px;
+	margin: 15px;
+}
+
+.contact-info
+{
+	padding: 5px 5px 5px 5px;
+	margin: 20px;
+	font-family: sans-serif;
+	border: lightgrey solid 2px;
+}
+
+.contact-info > div > div > h2
+{
+	color: black;
+	font-family: Oswald;
+}
+
+.icon-bar
+{
+	background-color: purple;
+}
+
+#button
+{
+	border-radius: 0;
+	color: #ff4d4d;
+	background-color: white;
+	border: #ff4d4d solid 1px;
+}
+
+#front-pic
+{
+	background-color: #ff4d4d;
+	background-size: cover;
+	height:auto;
+}
+
+#front-pic > div > div > div > h1
+{
+	color: white;
+	border-bottom: white solid 3px;
+}
+
+#front-pic > div > div > div > h2
+{
+	color: lightgrey;
+}
+
+.carousel-inner > .item > img 
+{
+    margin: 0 auto;
+}
+
+#footer
+{
+	background-color: lightgrey;
+	color: black;
+	padding:30px;
+}
+
+.about-section
+{
+	padding: 30px 0px 30px 0px;
+	border:lightgrey solid 2px;
+	margin-bottom: 10px;
+}
+
+.purple-background
+{
+	background-color:#ff4d4d;
+	color:white;
+}
+
+.footer-styling
+{
+	border-left: white solid 1px;
+}
+
+.carousel-caption
+{
+	background-color: grey;
+	background: rgba(0,0,0,.3);
+}
+
+.about-description > h3
+{
+	border-bottom: grey solid 3px;
+}
+
+.projects
+{
+	padding: 0 0 30px 0;
+	background-color: #ff4d4d;
+	font-family: sans-serif;
+}
+
+.img-circle
+{
+	border:lightgrey solid 2px;
+}
+
+#footerMap
+{
+	width: 200px;
+	height: 200px;
+}
+
+#map
+{
+	width: 350px;
+	height: 350px;
+}
+
+#map2
+{
+	width: 350px;
+	height: 350px;
+}
