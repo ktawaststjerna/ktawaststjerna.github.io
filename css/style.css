@@ -31,6 +31,22 @@ a:active
     color: hotpink;
 }
 
+.home-image
+{
+	width: 350;
+}
+@media (max-width: 768px)
+{
+	.home-image
+	{
+		width: 300px;
+		height: auto;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 .navbar
 {
 	background-color: #ff4d4d;
@@ -99,7 +115,20 @@ a:active
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 4px;
 	margin: 15px;
-    text-transform: uppercase;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px)
+{
+	.who-i-am > p
+	{
+		text-align: center;
+	}
+
+		.who-i-am > h2
+	{
+		text-align: center;
+	}
 }
 
 /* TEXT STUFF */
@@ -110,7 +139,7 @@ a:active
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 4px;
 	margin: 15px;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .header-desc
@@ -132,7 +161,7 @@ a:active
 .contact-info > div > div > h2
 {
 	color: black;
-	font-family: Oswald;
+	font-family: 'Oswald';
 }
 
 .icon-bar
@@ -185,12 +214,6 @@ a:active
 	margin-bottom: 10px;
 }
 
-.purple-background
-{
-	background-color:#ff4d4d;
-	color:white;
-}
-
 .footer-styling
 {
 	border-left: white solid 1px;
@@ -205,34 +228,4 @@ a:active
 .about-description > h3
 {
 	border-bottom: grey solid 3px;
-}
-
-.projects
-{
-	padding: 0 0 30px 0;
-	background-color: #ff4d4d;
-	font-family: sans-serif;
-}
-
-.img-circle
-{
-	border:lightgrey solid 2px;
-}
-
-#footerMap
-{
-	width: 200px;
-	height: 200px;
-}
-
-#map
-{
-	width: 350px;
-	height: 350px;
-}
-
-#map2
-{
-	width: 350px;
-	height: 350px;
 }
