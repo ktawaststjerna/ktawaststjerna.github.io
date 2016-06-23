@@ -45,6 +45,25 @@ a:active
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.menu
+	{
+		text-align: center;
+	}
+	.who-i-am > p
+	{
+		text-align: center;
+	}
+	.who-i-am > h2
+	{
+		text-align: center;
+	}
+}
+@media (min-width: 768px)
+{
+	.menu
+	{
+		text-align: center;
+	}
 }
 
 .navbar
@@ -116,19 +135,6 @@ a:active
 	letter-spacing: 4px;
 	margin: 15px;
   text-transform: uppercase;
-}
-
-@media (max-width: 768px)
-{
-	.who-i-am > p
-	{
-		text-align: center;
-	}
-
-		.who-i-am > h2
-	{
-		text-align: center;
-	}
 }
 
 /* TEXT STUFF */
